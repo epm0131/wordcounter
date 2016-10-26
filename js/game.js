@@ -1,4 +1,4 @@
-var stringToSplit = 'A cat in a hat is a silly cat indeed.'
+var stringToSplit = document.querySelector('p').innerText;
 
 function wordFrequency(stringOfWords){
   var frequencies = {
