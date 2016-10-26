@@ -10,12 +10,13 @@ function wordFrequency(stringOfWords){
 
 splitString.forEach(function count (word){
 
+  if (word.length>1){
   if (frequencies [word] === undefined){
       frequencies [word] =1;
     } else {
       frequencies[word]++;
     }
-
+  }
 });
 
 
